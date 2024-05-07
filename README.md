@@ -8,6 +8,7 @@ The function first takes the absolute value of the input number, then checks the
 - m (million)
 - b (billion)
 - t (trillion)
+
 If the number is less than 1000, no metric prefix is used.
 
 Once the metric prefix has been determined, the function formats the number to two decimal places if it is greater than 10, or three decimal places if it is less than 10.
